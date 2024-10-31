@@ -11,6 +11,8 @@
 # Disclaimer: This code is provided "as-is" without any warranties or guarantees
 # of any kind. The author assumes no responsibility or liability for any errors
 # or issues that arise from the use, modification, or distribution of this code
+#
+# Source can be found on https://github.com/hoemich/misc-r/tree/main/interval-scaling
 
 generate_transformer <- function(breakpoints, scales) {
   # Prüfe, ob die Anzahl der Breakpoints und Skalen zueinander passt
